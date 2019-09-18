@@ -1,0 +1,17 @@
+create database figsistemas;
+
+create table funcionario(
+cargo varchar(55) not null,
+login varchar(255) not null,
+senha varchar(55) not null,
+nome varchar(255) not null,
+data numeric not null,
+identidade varchar(30) not null,
+cpf varchar(30) not null,
+PRIMARY KEY (cpf),
+cdt varchar(30) not null,
+rua varchar(255) not null,
+numero numeric not null,
+bairro varchar(255) not null,
+complemento varchar(255) not null
+);
